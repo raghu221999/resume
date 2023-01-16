@@ -40,7 +40,7 @@ app.post('/update', async (req, res) => {
 
         res.send(user);
     } catch (error) {
-        res.status(400).json(error)
+        res.status(400).json(error);
     }
 });
 
